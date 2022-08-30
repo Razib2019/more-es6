@@ -17,8 +17,8 @@ const products = [
     { id: 4, name: 'tablet', price: 23000 }
 
 ]
-// const items = products.map(products => console.log(products.name));
-const items = products.map(products => products.name);
+// const items = products.map(product => console.log(product.name));
+const items = products.map(product => product.name);
+console.log(items);
 const prices = products.map(p => p.price);
-// console.log(items);
 console.log(prices);

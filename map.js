@@ -9,10 +9,15 @@ function getDoubles(numbers) {
     return output;
 }
 
+// const result = getDoubles(numbers);
+// console.log(result);
 
 function doubleItOld(num) {
     return num * 2;
 }
+
+// const result = getDoubles(numbers);
+// console.log(result);
 
 
 const doubleIt = num => num * 2;
